@@ -10,8 +10,8 @@ patchesStrategicMerge:
 
 images:
 - name: argoproj/argocd
-  newName: argoproj/argocd
-  newTag: latest
+  newName: abhishekf5/argocd
+  newTag: routeinfo
 resources:
 - ../../base/application-controller
 - ../../base/dex

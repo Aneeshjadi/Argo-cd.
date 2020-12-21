@@ -3,6 +3,7 @@ module github.com/argoproj/argo-cd
 go 1.14
 
 require (
+	github.com/Azure/go-autorest/autorest v0.11.15 // indirect
 	github.com/Masterminds/semver v1.5.0
 	github.com/TomOnTime/utfutil v0.0.0-20180511104225-09c41003ee1d
 	github.com/alicebob/gopher-json v0.0.0-20180125190556-5a6b3ba71ee6 // indirect
@@ -61,7 +62,7 @@ require (
 	github.com/undefinedlabs/go-mpatch v1.0.6
 	github.com/vmihailenco/msgpack/v5 v5.1.0 // indirect
 	github.com/yuin/gopher-lua v0.0.0-20190115140932-732aa6820ec4
-	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
+	golang.org/x/crypto v0.0.0-20201002170205-7f63de1d35b0
 	golang.org/x/exp v0.0.0-20200821190819-94841d0725da // indirect
 	golang.org/x/net v0.0.0-20201024042810-be3efd7ff127
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
